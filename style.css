@@ -1,0 +1,19 @@
+.all-solutions {
+    color: #F4F4FD;
+    text-align: center;
+    background-color:#2E2F42;
+    
+}
+
+.bottom-row {
+    color: #F4F4FD;
+    background-color: #2E2F42
+}
+
+ul {
+    list-style: none;
+}
+.os {
+    color:#fff;
+    background-color: blue;
+}
