@@ -1,3 +1,25 @@
+:root {
+    --link-color: #0000;
+    --heading-font-family: "Roboto", sans-serif;
+    --text-font-family:"Raleway", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font-family);
+}
+
+* {
+    font-family: var(--text-font-family);
+}
+
+a {
+    text-decoration: none;
+}
+
 .all-solutions {
     color: #F4F4FD;
     text-align: center;
@@ -10,10 +32,6 @@
     background-color: #2E2F42
 }
 
-ul {
-    list-style: none;
-}
-.os {
-    color:#fff;
-    background-color: blue;
+.team-class {
+    background-color: #f4f4fd;
 }
