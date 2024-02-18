@@ -1,7 +1,12 @@
 :root {
-    --link-color: #0000;
+    --link-color: #000000;
+    --link-color-hover: red;
     --heading-font-family: "Roboto", sans-serif;
     --text-font-family:"Raleway", sans-serif;
+}
+
+.navigation {
+    color: #2E2F42;
 }
 
 ul {
@@ -11,6 +16,17 @@ ul {
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font-family);
 }
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: medium;
+}
+
+p {
+    font-weight: 400;
+}
 
 * {
     font-family: var(--text-font-family);
@@ -18,10 +34,16 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
     text-decoration: none;
+    
+}
+
+a:hover {
+    color: var(--link-color-hover);
+    cursor: pointer;
 }
 
 .all-solutions {
-    color: #F4F4FD;
+    color: #ffff;
     text-align: center;
     background-color:#2E2F42;
     
@@ -34,4 +56,46 @@ a {
 
 .team-class {
     background-color: #f4f4fd;
+    height: 260;
+    width: 264;
+}
+
+.job-images {
+    height: 300;
+    width: 360;
+}
+
+.portofolio-images {
+    height: 300;
+    width: 360;
+}
+
+.contact-info {
+    color: #434455;
+}
+
+.logo::before {
+    content: "web";
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.logo-bottom {
+    color: #F4F4FD;
+}
+
+.logo-bottom::before {
+    content: "web";
+    color: #4D5AE5;
+    text-transform:uppercase
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    text-transform: capitalize;
+    color: #ffff;
+    height: 56;
+    border-radius: 3px;
+    border-width: 1px;
+    cursor: pointer;
 }
