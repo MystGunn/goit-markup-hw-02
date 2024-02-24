@@ -1,6 +1,6 @@
 :root {
     --link-color: #000000;
-    --link-color-hover: red;
+    --link-color-hover: #404BBF;
     --heading-font-family: "Roboto", sans-serif;
     --text-font-family:"Raleway", sans-serif;
 }
@@ -35,12 +35,15 @@ a:hover {
     color: #ffff;
     text-align: center;
     background-color:#2E2F42;
+    padding: 94px 0;
     
 }
 
 .bottom-row {
     color: #F4F4FD;
-    background-color: #2E2F42
+    background-color: #2E2F42;
+    padding: 94px 0;
+
 }
 
 .team-class {
@@ -87,4 +90,39 @@ a:hover {
     border-radius: 3px;
     border-width: 1px;
     cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+}
+
+.list-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.section-container {
+    display: flex;
+    justify-content:center;
+    padding: 94px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.button-list {
+    color:#4D5AE5;
+    background-color: #E7E9FC;
+    cursor: pointer;  
+    border-radius: 3px;
+    border-width: 0px;
+}
+
+.button-list:hover {
+    color: #F4F4FD;
+    background-color: var(--link-color-hover);
 }
